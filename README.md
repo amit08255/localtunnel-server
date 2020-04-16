@@ -68,3 +68,14 @@ docker run -d \
     --net host \
     defunctzombie/localtunnel-server:latest --port 3000
 ```
+
+## Alternative servers
+
+If your localtunnel does not start (most probably because localtunnel server is not working), you can use below alternative servers using command -
+
+```sh
+lt -h "server_domain" -p local_port
+```
+
+* https://cloudkit.link
+* http://serverless.social
